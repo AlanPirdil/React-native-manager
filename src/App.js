@@ -5,6 +5,7 @@ import { createStore } from 'redux';
 import firebase from 'firebase';
 import reducers from './reducers';
 import config from '../firebase-config';
+import LoginForm from './components/LoginForm';
 
 class App extends Component {
 
