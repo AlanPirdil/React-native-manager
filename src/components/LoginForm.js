@@ -78,6 +78,4 @@ const mapStateToProps = ({ auth }) => {
   return { email, password, error, loading };
 };
 
-
-
 export default connect(mapStateToProps, { emailChanged, passwordChanged, loginUser, })(LoginForm);
